@@ -53,8 +53,10 @@ const validateEmail = (email) => {
   <div class="login-wrapper">
     <v-container>
       <v-row justify="center" align="center">
-        <v-col cols="6"
-          ><p>
+        <v-col cols="6">
+          <h1 class="header">Health Map</h1>
+          <br />
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis in quod incidunt
             nostrum dolores est reprehenderit quasi illum accusamus alias, voluptates fuga adipisci
             voluptatem natus doloremque velit? Accusamus, harum saepe.
@@ -139,5 +141,9 @@ const validateEmail = (email) => {
 }
 body {
   background-color: #c6fce5;
+}
+.header {
+  color: #6a777b;
+  font-family: 'Times New Roman', Times, serif;
 }
 </style>
