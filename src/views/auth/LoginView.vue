@@ -52,8 +52,8 @@ const validateEmail = (email) => {
 <template>
   <div class="login-wrapper">
     <v-container>
-      <v-row justify="center" align="center">
-        <v-col cols="6">
+      <v-row justify="center" align="center" class="fill-height">
+        <v-col cols="12" md="6" class="text-section pt-1">
           <h1 class="header">Health Map</h1>
           <br />
           <p>
@@ -62,8 +62,8 @@ const validateEmail = (email) => {
             voluptatem natus doloremque velit? Accusamus, harum saepe.
           </p></v-col
         >
-        <v-col cols="6" md="4" class="mx-auto">
-          <v-card class="mx-auto">
+        <v-col cols="12" sm="8" md="5" lg="4">
+          <v-card class="mx-auto" elevation="24">
             <template v-slot:title>
               <h2 class="text-center">Log In</h2>
             </template>
@@ -110,7 +110,8 @@ const validateEmail = (email) => {
                 >
                 <v-divider class="my-5"></v-divider>
                 <h4 class="text-center">
-                  Don't have an account? <RouterLink to="/register">Sign up!</RouterLink>
+                  Don't have an account?
+                  <RouterLink class="text-primary" to="/register">Sign up!</RouterLink>
                 </h4>
               </v-form>
             </v-card-text>

@@ -59,9 +59,9 @@ const validateEmail = (email) => {
 <template>
   <div class="create-account-wrapper">
     <v-container>
-      <v-row>
-        <v-col cols="12" md="4" class="mx-auto">
-          <v-card class="mx-auto">
+      <v-row justify="center" align="center" class="fill-height">
+        <v-col cols="12" sm="8" md="5" lg="4">
+          <v-card class="mx-auto" elevation="24">
             <template v-slot:title>
               <h2 class="text-center">Create Account</h2>
             </template>
@@ -111,7 +111,8 @@ const validateEmail = (email) => {
                 >
                 <v-divider class="my-5"></v-divider>
                 <h4 class="text-center">
-                  Already have an account? <RouterLink to="/login">Sign in!</RouterLink>
+                  Already have an account?
+                  <RouterLink class="text-primary" to="/login">Sign in!</RouterLink>
                 </h4>
               </v-form>
             </v-card-text>
