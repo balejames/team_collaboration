@@ -51,10 +51,13 @@ const validateEmail = (email) => {
 </script>
 <template>
   <div class="login-wrapper">
-    <v-container>
+    <v-container fluid>
       <v-row justify="center" align="center" class="fill-height">
         <v-col cols="12" md="6" class="text-section pt-1">
-          <h1 class="header">Health Map</h1>
+          <div class="align-center">
+            <v-img src="images/Logofinal.png" height="100" width="90" alt="Logo"></v-img>
+            <h1 class="header mb-0">Health Map</h1>
+          </div>
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis in quod incidunt
@@ -62,6 +65,7 @@ const validateEmail = (email) => {
             voluptatem natus doloremque velit? Accusamus, harum saepe.
           </p></v-col
         >
+        <v-col cols="1"></v-col>
         <v-col cols="12" sm="8" md="5" lg="4">
           <v-card class="mx-auto" elevation="24">
             <template v-slot:title>
@@ -141,7 +145,11 @@ const validateEmail = (email) => {
   background-color: #ebfffa;
 }
 body {
-  background-color: #c6fce5;
+  background-image: url('C:\Users\admin\Desktop\Health Map\public\images\Background (3).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 .header {
   color: #6a777b;
