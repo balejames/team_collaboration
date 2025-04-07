@@ -58,9 +58,9 @@ const validateEmail = (email) => {
 </script>
 <template>
   <div class="create-account-wrapper">
-    <v-container>
+    <v-container fluid>
       <v-row justify="center" align="center" class="fill-height">
-        <v-col cols="12" sm="8" md="5" lg="4">
+        <v-col cols="12" sm="4" md="5" lg="4" class="text-center mb-4">
           <v-card class="mx-auto" elevation="24">
             <template v-slot:title>
               <h2 class="text-center">Create Account</h2>
@@ -107,8 +107,9 @@ const validateEmail = (email) => {
                   type="submit"
                   style="background-color: #0dceda; color: white"
                   class="custom-create my-2 mx-auto d-block"
-                  >Create Account</v-btn
                 >
+                  Create Account
+                </v-btn>
                 <v-divider class="my-5"></v-divider>
                 <h4 class="text-center">
                   Already have an account?
@@ -118,6 +119,8 @@ const validateEmail = (email) => {
             </v-card-text>
           </v-card>
         </v-col>
+        <v-col cols="2"></v-col>
+        <v-col cols="12" sm="4" md="5" lg="4" class="text-center mb-4"> </v-col>
       </v-row>
     </v-container>
   </div>

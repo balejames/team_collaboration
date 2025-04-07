@@ -55,14 +55,12 @@ const validateEmail = (email) => {
       <v-row justify="center" align="center" class="fill-height">
         <v-col cols="12" md="6" class="text-section pt-1">
           <div class="align-center">
-            <v-img src="images/Logofinal.png" height="100" width="90" alt="Logo"></v-img>
             <h1 class="header mb-0">Health Map</h1>
           </div>
           <br />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis in quod incidunt
-            nostrum dolores est reprehenderit quasi illum accusamus alias, voluptates fuga adipisci
-            voluptatem natus doloremque velit? Accusamus, harum saepe.
+            Easily register your Barangay clinic to start sharing schedules and services with your
+            community.
           </p></v-col
         >
         <v-col cols="1"></v-col>
@@ -153,6 +151,11 @@ body {
 }
 .header {
   color: #6a777b;
+  font-family: 'Times New Roman', Times, serif;
+}
+p {
+  color: white;
+  font-size: 150%;
   font-family: 'Times New Roman', Times, serif;
 }
 </style>
